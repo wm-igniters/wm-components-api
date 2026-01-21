@@ -87,7 +87,7 @@ pipeline {
 
               // Pull and run the new Docker image on the remote server
               sh "ssh -o StrictHostKeyChecking=no ubuntu@${REMOTE_SERVER} 'docker pull ${awsAccountID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}:${IMAGE_TAG}'"
-              sh "ssh -o StrictHostKeyChecking=no ubuntu@${REMOTE_SERVER} 'docker run -d --name ${CONTAINER_NAME} --env-file .env-p ${HTTP_PORT}:7001 ${awsAccountID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}:${IMAGE_TAG}'"
+              sh "ssh -o StrictHostKeyChecking=no ubuntu@${REMOTE_SERVER} 'docker run -d --name ${CONTAINER_NAME} -p ${HTTP_PORT}:7001 ${awsAccountID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}:${IMAGE_TAG}'"
             }
           }
         }
