@@ -14,19 +14,19 @@ const menu = [
   {
     id: "academy",
     label: "Academy",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/acd-icon.svg",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/academy-icon.png",
     link: " https://next-academy.wavemaker.com/"
   },
   {
     id: "docs",
     label: "Docs",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/wmdocs-icon.svg",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/docs-icon.png",
     link: " https://next-docs.wavemaker.com/"
   },
   {
     id: "marketplace",
     label: "Marketplace",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/icon/marketplace-icon.svg",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mp-icon.png",
     link: "https://marketplace.wavemaker.com/"
   },
   {
@@ -38,8 +38,8 @@ const menu = [
   {
     id: "mobilestorybook",
     label: "Mobile",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/rns-icon.svg",
-    link: "https://rn-components.wavemaker.com/",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mobile-storybook-icon.png",
+    link: "https://reactnative-components.wavemaker.com/",
   },
   {
     id: "platform",
@@ -50,7 +50,7 @@ const menu = [
   {
     id: "uikit",
     label: "UI Kit",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/ds-icon.svg",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/ui-kit-icon.png",
     link: "https://www.figma.com/community/file/1463103184874870889/wavemaker-ui-kit"
   },
 ];
