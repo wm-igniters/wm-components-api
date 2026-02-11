@@ -30,18 +30,6 @@ const menu = [
     link: "https://marketplace.wavemaker.ai"
   },
   {
-    id: "webstorybook",
-    label: "Web    Storybook",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/rs-icon.svg",
-    link: "https://react-components.wavemaker.ai",
-  },
-  {
-    id: "mobilestorybook",
-    label: "Mobile Storybook",
-    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mobile-storybook-icon.png",
-    link: "https://reactnative-components.wavemaker.ai",
-  },
-  {
     id: "platform",
     label: "Platform",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/wm-logo.svg",
@@ -52,6 +40,18 @@ const menu = [
     label: "UI Kit",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/ui-kit-icon.png",
     link: "https://www.figma.com/community/file/1463103184874870889/wavemaker-ui-kit"
+  },
+  {
+    id: "webstorybook",
+    label: "Web",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/rs-icon.svg",
+    link: "https://react-components.wavemaker.ai",
+  },
+  {
+    id: "mobilestorybook",
+    label: "Mobile",
+    icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mobile-storybook-icon.png",
+    link: "https://reactnative-components.wavemaker.ai",
   },
 ];
 
