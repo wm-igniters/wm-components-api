@@ -15,31 +15,31 @@ const menu = [
     id: "academy",
     label: "Academy",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/academy-icon.png",
-    link: " https://next-academy.wavemaker.com/"
+    link: " https://academy.wavemaker.ai"
   },
   {
     id: "docs",
     label: "Docs",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/docs-icon.png",
-    link: " https://next-docs.wavemaker.com/"
+    link: "https://docs.wavemaker.ai"
   },
   {
     id: "marketplace",
     label: "Marketplace",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mp-icon.png",
-    link: "https://marketplace.wavemaker.com/"
+    link: "https://marketplace.wavemaker.ai"
   },
   {
     id: "webstorybook",
     label: "Web",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/rs-icon.svg",
-    link: "https://react-components.wavemaker.com/",
+    link: "https://react-components.wavemaker.ai",
   },
   {
     id: "mobilestorybook",
     label: "Mobile",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mobile-storybook-icon.png",
-    link: "https://reactnative-components.wavemaker.com/",
+    link: "https://reactnative-components.wavemaker.ai",
   },
   {
     id: "platform",
