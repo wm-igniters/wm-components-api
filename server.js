@@ -31,7 +31,7 @@ const menu = [
   },
   {
     id: "webstorybook",
-    label: "Web Storybook",
+    label: "Web    Storybook",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/rs-icon.svg",
     link: "https://react-components.wavemaker.ai",
   },
