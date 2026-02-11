@@ -31,13 +31,13 @@ const menu = [
   },
   {
     id: "webstorybook",
-    label: "Web",
+    label: "Web Storybook",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/marketplace-assets/mxp-asset/icon/rs-icon.svg",
     link: "https://react-components.wavemaker.ai",
   },
   {
     id: "mobilestorybook",
-    label: "Mobile",
+    label: "Mobile Storybook",
     icon: "https://dev-ecosystem.s3.us-east-1.amazonaws.com/menu-icon/mobile-storybook-icon.png",
     link: "https://reactnative-components.wavemaker.ai",
   },
